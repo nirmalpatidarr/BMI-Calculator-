@@ -73,7 +73,10 @@
                 bmi = (Weight / ((height * height) / 10000)).toFixed(2)
             }
             else {
-               bmi=`Please Select Gender First`;
+                 alert(`please Select Gender First`);
+                document.getElementById("lstAge").value = "";
+                document.getElementById("lstHeight").value = "";
+                document.getElementById("lstWeight").value = "";
 
             }
 
